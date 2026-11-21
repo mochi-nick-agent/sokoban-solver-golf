@@ -1,1 +1,1 @@
-import*as fs from"node:fs";import{brotliDecompressSync as B}from"node:zlib";eval(B(fs.readFileSync(process.argv[1].slice(0,-7)+"p"))+"")
+import f from"node:fs";import zlib from"node:zlib";eval(zlib.brotliDecompressSync(f.readFileSync(process.argv[1].slice(0,-7)+"p"))+"")
